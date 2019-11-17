@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio8",
+            "request": "launch",
+            "mainClass": "app.Ejercicio8",
+            "projectName": "String"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejercicio6",
+            "request": "launch",
+            "mainClass": "app.Ejercicio6",
+            "projectName": "String"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "String"
+        }
+    ]
+}

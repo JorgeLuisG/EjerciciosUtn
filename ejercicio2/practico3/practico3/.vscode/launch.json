@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Practico3",
+            "request": "launch",
+            "mainClass": "app.Practico3",
+            "projectName": "practico3"
+        }
+    ]
+}
