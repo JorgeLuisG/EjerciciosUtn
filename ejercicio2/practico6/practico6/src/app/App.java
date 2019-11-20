@@ -21,22 +21,42 @@ public class App {
         imprimirMatriz_nxn(matrizAleatoria1);
         imprimirMatriz(sumarVectorConcolumna(matrizAleatoria1, numerosAleatorios1));
         System.out.println("Ejercicio 4");
-        int[] numeros=new int[8];
-        int[] numeros2=new int[8];
-        System.out.println("ingrese segundo vector");
-        llenarVectorConNumeros(numeros);
-        System.out.println("ingrese segundo vector");
-        llenarVectorConNumeros(numeros2);
-        imprimirMatriz(numeros);
-        imprimirMatriz(numeros2);
-        System.out.println(multiplicarVectoresEscalarmente(numeros, numeros2));
+//        int[] numeros=new int[8];
+//        int[] numeros2=new int[8];
+//        System.out.println("ingrese segundo vector");
+//        llenarVectorConNumeros(numeros);
+//        System.out.println("ingrese segundo vector");
+//        llenarVectorConNumeros(numeros2);
+//        imprimirMatriz(numeros);
+//        imprimirMatriz(numeros2);
+//        System.out.println(multiplicarVectoresEscalarmente(numeros, numeros2));
+        System.out.println("Ejercicio 5");
         int[][] matriz=new int[4][6];
         int[] vector=new int[4];
-        llenarNumerosAleatorios_nxn(matriz, 3, 1);
-        llenarVectorConNumerosEntre(vector,1,3);
+        llenarNumerosAleatorios_nxn(matriz, 3,1);
         imprimirMatriz_nxn(matriz);
+        llenarVectorConNumerosEntre(vector,1,3);
         imprimirMatriz(vector);
         compararVectorConColumna(matriz,vector);
+        imprimirMatriz_nxn(TransponerMatriz(matriz));
+        System.out.println(compararVectorConColumna(matriz,vector));
+        System.out.println("Ejercicio 6");
+        String [] palabras=new String[6];
+        String palabra="";
+        System.out.println("Ingrese palabras de la matriz");
+        llenarVector(palabras);
+        System.out.println("Ingrese una palabra");
+        palabra=cargarPalbra(palabra);
+        System.out.println(palabra);
+        System.out.println(compararString(palabras, palabra));
+        System.out.println("Ejercicio 7");
+        int[] vector2= new int[10];
+        llenarNumerosAleatorios(vector, 10);
+        imprimirMatriz(vector);
+        invertirVector(vector);
+        imprimirMatriz(vector);
+
+
     }
     public static void imprimirMatriz(int[] array) {
         for (int i = 0; i < array.length; i++) {
@@ -121,12 +141,65 @@ public class App {
         return escalar;
         
     }
-    public static boolean compararVectorConColumna(int[][] matriz,int vector){
-        boolean comparador;
+    public static int[][] TransponerMatriz(int[][] matriz) {
+        int[][] matriz2=new int[matriz[0].length][matriz.length];
+        for (int i = 0; i < matriz2.length; i++) {
+            for (int j = 0; j < matriz2[i].length; j++) {
+                matriz2[i][j]=matriz[j][i];
+            }
+            
+        }
+        return matriz2;
+    }
+    public static boolean compararVectorConColumna(int[][] matriz1,int vector[]){
+        boolean comparador=false;
+        int[][] matriz=TransponerMatriz(matriz1);
+        
+        
         for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j]==vector[j]) {
+                    
+                    comparador=true;
+                    
+                } else {
+                    comparador=false;
+                    break;
+                }
+            }
+            if (comparador) {
+                break;
+            }
+        }
+        return comparador;
+    }
+    public static void llenarVector (String[] palabras){
+        Scanner scan= new Scanner(System.in);
+        for (int i = 0; i < palabras.length; i++) {
+            palabras[i]=scan.next();
+        }
+    }
+    public static boolean compararString (String[] palabras,String palabra) {
+        boolean comparador=false;
+        for (int i = 0; i < palabras.length; i++) {
+            if(palabras[i].equalsIgnoreCase(palabra)){
+                comparador=true;
+                break;
+            }
             
         }
         return comparador;
+    }
+    public static String cargarPalbra(String palabra) {
+        Scanner scan= new Scanner(System.in);
+        palabra=scan.next();
+        return palabra;
+    }
+    public static void invertirVector(int[] vector) {
+        int[] vectorAux=vector;
+        for (int i = 0; i < vectorAux.length; i++) {
+                vector[i]=vectorAux[i-vectorAux.length-1];
+        }
     }
 
 }
