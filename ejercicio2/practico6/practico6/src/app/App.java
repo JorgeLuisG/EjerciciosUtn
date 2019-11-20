@@ -35,6 +35,7 @@ public class App {
         int[] vector=new int[4];
         llenarNumerosAleatorios_nxn(matriz, 3,1);
         imprimirMatriz_nxn(matriz);
+        System.out.println("ingrese un numero entre 1 y 3");
         llenarVectorConNumerosEntre(vector,1,3);
         imprimirMatriz(vector);
         compararVectorConColumna(matriz,vector);
@@ -51,10 +52,10 @@ public class App {
         System.out.println(compararString(palabras, palabra));
         System.out.println("Ejercicio 7");
         int[] vector2= new int[10];
-        llenarNumerosAleatorios(vector, 10);
-        imprimirMatriz(vector);
-        invertirVector(vector);
-        imprimirMatriz(vector);
+        llenarNumerosAleatorios(vector2, 10);
+        imprimirMatriz(vector2);
+        invertirVector(vector2);
+        imprimirMatriz(vector2);
 
 
     }
@@ -125,6 +126,9 @@ public class App {
         for (int i = 0; i < array.length; i++) {
             do {
                 array[i]=scan.nextInt();
+                if (array[i]>max||array[i]<min) {
+                    System.out.println("ingrese un numero entre "+min+" y "+max);
+                }
             } while (array[i]>max||array[i]<min);
             
         }
@@ -198,7 +202,7 @@ public class App {
     public static void invertirVector(int[] vector) {
         int[] vectorAux=vector;
         for (int i = 0; i < vectorAux.length; i++) {
-                vector[i]=vectorAux[i-vectorAux.length-1];
+                vector[i]=vectorAux[vectorAux.length-1-i];
         }
     }
 
