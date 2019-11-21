@@ -63,7 +63,8 @@ public class App {
         System.out.println("Matriz 10x10");
         imprimirMatriz_nxn(matriz2);
         System.out.println("Vector números impares");
-        devolverNumerosImpares(matriz2);
+        imprimirMatriz(devolverNumerosImpares(matriz2));
+        
 
 
     }
@@ -217,16 +218,10 @@ public class App {
         int[] matriz2=new int[0];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if (matriz[i][j]/2==1) {
-                    int k=0;
-                    k++;
-                    añadirValorArray(matriz2, matriz[i][j]);
-                    System.out.println(matriz2[k-1]);
+                if (matriz[i][j]%2==1) {
+                    matriz2=añadirValorArray(matriz2, matriz[i][j]);
                 }
-                
             }
-            
-            
         }
         
         return matriz2;
