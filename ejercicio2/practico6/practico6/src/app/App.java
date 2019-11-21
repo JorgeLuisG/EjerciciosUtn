@@ -1,5 +1,6 @@
 package app;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -56,6 +57,13 @@ public class App {
         imprimirMatriz(vector2);
         invertirVector(vector2);
         imprimirMatriz(vector2);
+        System.out.println("Ejercicio 8");
+        int[][] matriz2=new int[10][10];
+        llenarNumerosAleatorios_nxn(matriz2, 100);
+        System.out.println("Matriz 10x10");
+        imprimirMatriz_nxn(matriz2);
+        System.out.println("Vector números impares");
+        devolverNumerosImpares(matriz2);
 
 
     }
@@ -200,10 +208,33 @@ public class App {
         return palabra;
     }
     public static void invertirVector(int[] vector) {
-        int[] vectorAux=vector;
-        for (int i = 0; i < vectorAux.length; i++) {
-                vector[i]=vectorAux[vectorAux.length-1-i];
+        int []vectorAux=Arrays.copyOf(vector, vector.length);
+        for (int i = 0; i < vector.length; i++) {
+                vector[i]=vectorAux[(vector.length-1-i)];
         }
     }
+    public static int[] devolverNumerosImpares(int[][] matriz) {
+        int[] matriz2=new int[0];
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j]/2==1) {
+                    int k=0;
+                    k++;
+                    añadirValorArray(matriz2, matriz[i][j]);
+                    System.out.println(matriz2[k-1]);
+                }
+                
+            }
+            
+            
+        }
+        
+        return matriz2;
+    }
+    public static int[] añadirValorArray(int[] mat, int i) {
+        mat  = Arrays.copyOf(mat, mat.length + 1);
+        mat[mat.length - 1] = i;
+        return mat;
+     }
 
 }
