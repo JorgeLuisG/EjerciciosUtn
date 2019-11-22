@@ -28,7 +28,7 @@ public class App {
         ingresoMensual=(cantCapacitores/4*precioCapacitores*7/2+cantLedAmarillo/4*precioLedAmarillo*7/2+cantParlantes/4*precioParlantes*7/2+cantRele/4*preciotRele*7/2);
         System.out.println("el ingreso mensual al 350% es de "+ingresoMensual);
         System.out.println("d)");
-    /*    hipotecisDeVenta(100, 30);
+        hipotecisDeVenta(100, 30);
         hipotecisDeVenta(100, 45);
         hipotecisDeVenta(100, 90);
         hipotecisDeVenta(50, 30);
@@ -39,7 +39,7 @@ public class App {
         hipotecisDeVenta(120, 90);
         hipotecisDeVenta(350, 30);
         hipotecisDeVenta(350, 45);
-        hipotecisDeVenta(350, 90);*/
+        hipotecisDeVenta(350, 90);
         AdmistradorDeItems.imprimirIngreso(10, 50);
         AdmistradorDeItems.imprimirIngreso(10, 100);
         AdmistradorDeItems.imprimirIngreso(10, 120);

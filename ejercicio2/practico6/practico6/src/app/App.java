@@ -31,7 +31,7 @@ public class App {
 //        imprimirMatriz(numeros);
 //        imprimirMatriz(numeros2);
 //        System.out.println(multiplicarVectoresEscalarmente(numeros, numeros2));
-        System.out.println("Ejercicio 5");
+/*        System.out.println("Ejercicio 5");
         int[][] matriz=new int[4][6];
         int[] vector=new int[4];
         llenarNumerosAleatorios_nxn(matriz, 3,1);
@@ -64,7 +64,8 @@ public class App {
         imprimirMatriz_nxn(matriz2);
         System.out.println("Vector números impares");
         imprimirMatriz(devolverNumerosImpares(matriz2));
-        
+*/        System.out.println("Ejercicio 9");
+        Menu.scanearMenu();
 
 
     }
@@ -143,6 +144,13 @@ public class App {
         }
         
         
+        
+    }
+    public static void llenarMatrizConNumeros(int[][] array) {
+    
+        for (int i = 0; i < array.length; i++) {
+            llenarVectorConNumeros(array[i]);
+        }
         
     }
     public static int multiplicarVectoresEscalarmente(int[] array,int[] array2) {
@@ -230,6 +238,6 @@ public class App {
         mat  = Arrays.copyOf(mat, mat.length + 1);
         mat[mat.length - 1] = i;
         return mat;
-     }
+    }
 
 }
