@@ -66,6 +66,8 @@ public class App {
         imprimirMatriz(devolverNumerosImpares(matriz2));
 */        System.out.println("Ejercicio 9");
         Menu.scanearMenu();
+        MenuDados.scanearMenu();
+
 
 
     }
