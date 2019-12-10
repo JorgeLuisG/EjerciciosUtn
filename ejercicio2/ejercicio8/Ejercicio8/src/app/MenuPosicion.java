@@ -1,7 +1,20 @@
 package app;
 
+import java.util.Scanner;
+
 public class MenuPosicion {
-    public static void mostrarMenu() {
-        System.out.println("desea bloquear el primer dado");
+    private String[] posiciones= {"primer","segundo","tercer","cuarto","quinto"};
+    private Scanner scan = new Scanner(System.in);
+    private String[] desicion={"n","n","n","n","n"};
+    public void mostrarMenuBloqueo() {
+        for (int i = 1; i <= posiciones.length; i++) {
+            System.out.println("desea bloquear el "+posiciones[i]+" dado S/N");
+            do {
+                desicion[i]=scan.next();
+            } while ((!desicion[i].equalsIgnoreCase("n"))&&(!desicion[i].equalsIgnoreCase("s")));
+
+        }
+        
     }
+
 }
