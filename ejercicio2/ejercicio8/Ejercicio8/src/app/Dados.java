@@ -4,7 +4,6 @@ package app;
 
 public class Dados {
     private int[] dados=new int[5];
-    
     public void tirarDados(){
         
         for (int i = 0; i < this.dados.length; i++) {
@@ -110,8 +109,8 @@ public class Dados {
                     suma2++;
                     suma+=dados[j];
                     System.err.println(i);
-                    System.out.println(suma2);
-                    System.out.println(suma);
+                    System.out.println(suma2+" suma2");
+                    System.out.println(suma+" suma");
                     if(suma2==4){
                         break;
                     }
