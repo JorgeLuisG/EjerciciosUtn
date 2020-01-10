@@ -3,9 +3,10 @@ package app;
 import java.util.Scanner;
 
 public class ImplementacionClaseGenerica {
-    String[] palabras;
-    int[] numeros;
-    ClaseGenerica <String> arrayStr =new ClaseGenerica<String>();
+    private String[] palabras=new String[10];
+    private Integer[] numeros=new Integer[10];
+    private ClaseGenerica <String> arrayStr =new ClaseGenerica<String>();
+    private ClaseGenerica <Integer> arrayInt =new ClaseGenerica<Integer>();
     public  void LLenarString() {
         Scanner scan=new Scanner(System.in);
         for (int i = 0; i < palabras.length; i++) {
@@ -18,14 +19,10 @@ public class ImplementacionClaseGenerica {
             numeros[i]=scan.nextInt();
         }
     }
-    public void llenarArrays() {
-        for (int i = 0; i < numeros.length; i++) {
-            arrayStr.add(palabras[i]);
-        }
-        
-    }
+    
     public void mostrarArray() {
-        arrayStr.mostrarArray();
+        arrayStr.mostrarArray(palabras);
+        arrayInt.mostrarArray(numeros);
     }
     
 }

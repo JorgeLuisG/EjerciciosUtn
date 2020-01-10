@@ -22,7 +22,12 @@ public class App {
         Scanner scan=new Scanner(System.in);
         String[] numerosStrg=new String[50];
         ArrayList<String> palabras= new ArrayList<String>();
-        
+        System.out.println("Ejercicio11");
+        Animal perro = new Animal();
+        perro.caminar();
+        Ave pajaro = new Ave();
+        pajaro.volar();
+        pajaro.caminar();
         sumaRecursiva(10);
         serieDefibonachi(5);
         System.out.println("ejercicio 7");
@@ -32,7 +37,13 @@ public class App {
         System.out.println("Ejercicio 9");
         ingresarUnEmpleado();
         System.out.println("Ejercicio 10");
+        ImplementacionClaseGenerica implement=new ImplementacionClaseGenerica();
+        System.out.println("Llenar de String");
+        implement.LLenarString();
+        System.out.println("Llenar de Enteros");
+        implement.LLenarDeEnteros();
         
+        implement.mostrarArray();
 
         
         System.out.println("Ejercicios Varios");

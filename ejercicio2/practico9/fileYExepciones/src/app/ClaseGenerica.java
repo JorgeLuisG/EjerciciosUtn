@@ -1,26 +1,19 @@
 package app;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
-public class ClaseGenerica<T> implements Iterable {
-    private ArrayList<T> lista= new ArrayList<T>();
-
-    public void mostrarArray() {
-        for (int i = 0; i < lista.size(); i++) {
-            lista.get(i);
+public class ClaseGenerica<T> {
+    
+    public void mostrarArray(T[] objeto) {
+        for (int i = 0; i < objeto.length; i++) {
+            if (objeto.length-1==i) {
+                System.out.println(objeto[i]);
+            } else {
+                System.out.print(objeto[i]+",");
+            }
+            
         }
-        
-    }
-    public void add(T objeto) {
-        
     }
         
         
-    @Override
-    public Iterator<T> iterator() {
-        // TODO Auto-generated method stub
-        return lista.iterator();
-    }
+    
 
 }
