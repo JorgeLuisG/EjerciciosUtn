@@ -78,7 +78,6 @@ public class Dados {
                 if(caraDado!=dados[i]){
                     if (dados[i]==dados[j]) {
                         suma3++;
-                        System.out.println(suma3);
                         if(suma3==2){
                             bol2=true;
                             break;
@@ -91,7 +90,6 @@ public class Dados {
             }
             
         }
-        System.out.println(bol1+","+bol2);
         if (bol2&&bol1) {
             for (int i = 0; i < dados.length; i++) {
                 suma+=dados[i];
@@ -99,27 +97,73 @@ public class Dados {
         }
         return suma;
     }
-    public int CuatroIguales(){
+    public int cuatroIguales(){
         int suma=0;
         int suma2=0;
         for (int i = 0; i < 5; i++) {
             suma2=0;
+            suma=0;
             for (int j = 0; j < dados.length; j++) {
                 if (dados[i]==dados[j]) {
                     suma2++;
                     suma+=dados[j];
-                    System.err.println(i);
-                    System.out.println(suma2+" suma2");
-                    System.out.println(suma+" suma");
                     if(suma2==4){
                         break;
                     }
                 }
             }     
-            
             if (suma2==4){
                 break;
+            }else{
+                suma=0;
             }
+        }
+        return suma;
+    }
+    public int yacht(){
+        int suma=0;
+        for (int i = 0; i < 5; i++) {
+            if(dados[0]==dados[i]){
+                if(i==4){
+                    suma=50;
+                }
+            }else{
+                break;
+            }
+        }
+        return suma;
+    }
+    
+    public int escaleraPequeña(){
+        int suma=0;
+        for (int i = 0; i < dados.length-1; i++) {
+            if(dados[0]==1&&dados[i]==dados[i+1]-1){
+                if(i==3){
+                    suma=30;
+                }
+            }else{
+                break;
+            }
+        }
+        return suma;
+    }
+    public int escaleraGrande(){
+        int suma=0;
+        for (int i = 0; i < dados.length-1; i++) {
+            if(dados[0]==2&&dados[i]==dados[i+1]-1){
+                if(i==3){
+                    suma=30;
+                }
+            }else{
+                break;
+            }
+        }
+        return suma;
+    }
+    public int eleccion(){
+        int suma=0;
+        for (int i = 0; i < dados.length-1; i++) {
+            suma+=dados[i];
         }
         return suma;
     }

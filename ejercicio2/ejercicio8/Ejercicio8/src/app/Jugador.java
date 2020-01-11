@@ -1,14 +1,10 @@
 package app;
 
 public class Jugador {
-    int score=0;
-    String nombre;
+    private int score=0;
+    private String nombre;
     
 
-
-    public void guardarScore() {
-        
-    }
 
     public int getScore() {
         return score;
@@ -23,6 +19,10 @@ public class Jugador {
     }
 
     public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Jugador(String nombre) {
         this.nombre = nombre;
     }
 
