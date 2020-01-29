@@ -9,7 +9,6 @@ public class Dados {
         for (int i = 0; i < this.dados.length; i++) {
             this.dados[i]=(int)(Math.random()*6+1);
         }
-        mostrarTiradas();
     }
     public void mostrarTiradas(){
         for (int i = 0; i < this.dados.length; i++) {
@@ -162,7 +161,7 @@ public class Dados {
     }
     public int eleccion(){
         int suma=0;
-        for (int i = 0; i < dados.length-1; i++) {
+        for (int i = 0; i < dados.length; i++) {
             suma+=dados[i];
         }
         return suma;
