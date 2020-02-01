@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d554b198-a6eb-4944-9cdc-8716b42c5505" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580336210817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios 29/01/2020">
+      <created>1580336243698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580336243698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cambios 29/01/2020">
+      <created>1580336344461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580336344461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -51,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -62,9 +78,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="cambios 29/01/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1580336242901">
+    <state x="313" y="0" key="CommitChangelistDialog2" timestamp="1580336343633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580336242901" />
+    <state x="313" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580336343633" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580426099459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580426099459" />
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580575467589">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580575467589" />
   </component>
 </project>
