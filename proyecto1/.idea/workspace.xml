@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1626f24-8520-42dc-9af4-ceee9c6549c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/Coneccion2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coneccion2/src/main/java/conector/Conec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/Conector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conector/src/main/java/conectores/Conector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio2/Practico 11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio2/practico6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio2/practico6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio2/practico6/.idea/practico6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio2/practico6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practico 11/practico 11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practico 11/src/ClasePrincipal.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XXtDwOygHTzVYM9s0Rl4L0DcJF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practico 11" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1626f24-8520-42dc-9af4-ceee9c6549c9" name="Default Changelist" comment="" />
+      <created>1581204150065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581204150065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581204202203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581204202203" />
+  </component>
+</project>
