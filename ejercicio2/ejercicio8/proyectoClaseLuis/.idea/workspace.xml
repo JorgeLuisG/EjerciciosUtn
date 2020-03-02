@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2045e91-b716-4385-aeec-d661a2f4ae21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/Conector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/dictionaries/WIN10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/Ejercicio8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/src/main/java/conectores/Conector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/src/main/java/conectores/Conector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/target/classes/conectores/Conector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/target/classes/conectores/Conector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/Dados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/Dados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuCategorias.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuCategorias.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPosicion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPosicion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuTurnos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuTurnos.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Xj6BrPKjXYDHijJ0Jq2oMADiou" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2045e91-b716-4385-aeec-d661a2f4ae21" name="Default Changelist" comment="" />
+      <created>1581547023567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581547023567</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="65" y="66" key="new project wizard" timestamp="1581547280139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="66" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581547280139" />
+  </component>
+</project>

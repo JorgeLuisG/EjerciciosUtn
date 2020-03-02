@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4e4d504-db8c-4048-82e9-929bd093fce0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/Conector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Conector/.idea/dictionaries/WIN10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio8/Ejercicio8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proyectoClaseLuis/proyectoClaseLuis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utn/frsr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utn/frsr/model/ContracData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utn/frsr/model/Departament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utn/frsr/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utnhibernet2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/src/main/java/conectores/Conector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/src/main/java/conectores/Conector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Conector/target/classes/conectores/Conector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Conector/target/classes/conectores/Conector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/Dados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/Dados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/Jugador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuCategorias.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuCategorias.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuJugadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuJugadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPosicion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPosicion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuTurnos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio8/bin/app/MenuTurnos.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Xj6iBj7G5kqKUv8nfwcPBSRKKT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4e4d504-db8c-4048-82e9-929bd093fce0" name="Default Changelist" comment="" />
+      <created>1581547280162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581547280162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1581549987840">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581549987840" />
+    <state x="289" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581548850815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1581548850815" />
+    <state x="263" y="107" key="IDE.errors.dialog" timestamp="1581548626578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="107" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1581548626578" />
+  </component>
+</project>
